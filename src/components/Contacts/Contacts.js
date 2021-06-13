@@ -7,7 +7,6 @@ class Contacts extends Component {
   };
 
   state = {
-    contactList: this.props.contactList,
     filter: '',
   };
 
@@ -17,7 +16,8 @@ class Contacts extends Component {
   };
 
   filterContacts = () => {
-    const { contactList, filter } = this.state;
+    const { filter } = this.state;
+    const { contactList } = this.props;
     const normalizedContactSnippet = filter.toLowerCase();
     this.setState({
       filteredContacts: contactList.filter(({ name }) =>
