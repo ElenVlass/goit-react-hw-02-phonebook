@@ -1,0 +1,17 @@
+.button {
+  border: 1px solid cornflowerblue;
+  padding: 5px 15px;
+  cursor: pointer;
+  outline: none;
+  color: cornflowerblue;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: cornflowerblue;
+  color: #fff;
+  outline: none;
+}

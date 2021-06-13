@@ -1,0 +1,19 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+  color: rgb(130, 62, 161);
+}
+.input {
+  padding: 5px;
+  border: 1px solid cornflowerblue;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 400px;
+}
+.input:hover,
+.input:focus {
+  border: 1px solid rgb(130, 62, 161);
+  outline: none;
+}
